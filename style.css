@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 70px;
+    text-rendering: optimizeLegibility; /*redarea textului - ceea ce va face ca fonturile sa fie redate intr-un mod perfect*/
+  }
+
+
+    
+
+.row{
+    max-width: 1140px; /*doar aici vom folosi px*/
+    margin: 0 auto; /*am centrat continutul*/
+}
+
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    font-size: 40%;
+    background-color: #ff4857;
+    color:#fff;
+    
+  
+}
+
+.logo{
+    float: left;
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color:#fff;
+    font-weight: 600;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+
+
+
+.hidden{
+    display: none;
+}
+
+
+.navbar-nav{
+    display: block;
+    float:right;
+    list-style-type: none;
+    padding: 25px;
+}
+
+
+.columns{
+    width: 25%;
+    float: left;
+    font-size: 30%;
+    padding-right: 27px;
+
+}
+
+header{
+
+  background-image: linear-gradient(to bottom right, #040219 40%, #8f373e);
+    width: 100%;
+    height:100vh;
+    background-size:cover;
+    background-position: center;
+
+
+}
+
+
+.container{
+    position: absolute;
+    top: 50%;  
+    left: 39%;
+    transform: translate(-50%,-50%);
+
+}
+
+.container h1{
+    font-size: 70%;
+    width: 400px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 2%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 70px;
+}
+
+ .container p{
+    font-size: 40%;
+    color: #fff;
+    width: 750px;
+    font-weight: 100;
+    line-height: 40px;
+   
+}
+
+.btn-full{
+    padding: 14px 45px;
+    font-size: 25%;
+    text-transform: uppercase;
+    background-color: #ff4857;
+    color:#fff;
+    letter-spacing: 1px;
+    
+}
+
+.btn-full:hover{
+    background-color:#ff4848d5;
+}
+
+.image{
+    position: absolute;
+    top:50%;
+    left:68%
+}
+
+.information h2,
+.paragraph h2{
+    margin-top: 25px;
+    font-size: 50%;
+    font-weight: 300;
+    color:#000;
+    margin-bottom: 25px;
+}
+section{
+    padding: 80px 0;
+}
+
+.information p{
+    width: 700px;
+
+
+}
+.information p,
+.training2 p{
+    color: #000;
+    font-weight: 300;
+    font-size: 25%;
+    line-height: 28px;
+    margin-bottom: 120px;
+}
+
+.columns h3{
+    font-size: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.columns h3::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    margin-top: -15px;
+    background-color: red;
+    
+
+}
+.rows{
+    
+    width: 100%;
+}
+
+
+.columns p{
+    font-style: italic;
+    line-height: 1.8;
+    font-size: 70%;
+    font-weight: 500;
+    color: rgb(71, 71, 71);
+}
+
+.rows::after{
+content: "";
+display: table;
+clear: both;
+}
+
+.training1{
+    background-image: linear-gradient(to top right, #0a072eda , #8f373e);
+    
+}
+
+
+.training1 h4{
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 10px;
+   
+    
+}
+
+.training1 p{
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+}
+
+.columns i{
+    color: #fff;
+    font-size: 250%;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+ 
+.training1 .columns{
+    width: 22%;
+    margin-right: 30px;
+}
+
+
+.training2 {
+    background-color:#f2f2f8;
+}
+.training2 h2{
+    text-align: center;
+}
+
+.paragraph p{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom:80px;
+    color: rgb(61, 60, 60);
+}
+
+
+.columns-image{
+    float: left;
+    width: 29%;
+    margin-left: 40px;
+    background-color:#fff;
+    
+
+}
+
+.columns-image img{
+    width: 100%;
+    height: 280px;
+}
+
+.columns-image h4{
+    font-size: 25%;
+    font-weight: 400;
+    padding: 25px 40px;
+  
+}
+
+.columns-image p{
+    padding: 0 20px;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .training3{
+      padding: 0px;
+      background-color: #ff4857;
+      color:#fff;
+      width: 100%;
+      height: 762px;
+      
+  }
+
+  .training3 img{
+     width: 50%;
+     
+  }
+
+  .training3  .container1{
+      width: 600px;
+      float: right;
+      margin-right: 80px;
+      margin-top: 200px;
+  }
+
+  .training3 h3{
+    font-size: 56%;
+    font-weight: 200;
+    margin-bottom: 20px;
+  }
+
+  .training3 p {
+      font-size: 25%;
+      margin-bottom: 20px;
+      line-height: 25px;
+  }
+
+.training4{
+    background-color: #f2f2f8;
+}
+
+.training4 h1{
+    margin-top: 55px;
+    font-size: 230%;
+    font-weight: 200;
+
+}
+
+.training4 p{
+
+    margin-top:30px;
+    font-size: 90%;
+    font-weight: 400;
+    font-style: normal;
+}
+.training4 .columns{
+    width: 30%;
+    margin-right: 38px;
+
+}
+
+.simple-paragraph p{
+    font-size: 70%;
+    line-height: 30px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #333333;
+    position: absolute;
+}
+
+footer p{
+    
+    padding: 80px 0px 0px 0px ;
+    font-size: 20%;
+    text-align: center;
+    color:#fff;
+}
